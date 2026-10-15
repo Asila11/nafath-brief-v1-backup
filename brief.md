@@ -14,8 +14,8 @@ Cybersecurity protects credentials, sessions, and services
 from attacks. Data practices govern how identity information is collected, 
 shared, and protected. AI may help detect suspicious activity, 
 but its decisions require testing and oversight. 
-These six areas work together to make government SSO services secure, 
-reliable, and trustworthy.
+For networking, an important question is how to monitor and secure traffic 
+between government agencies while minimizing the exposure of sensitive identity information.
 
 
 Software
