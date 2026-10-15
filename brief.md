@@ -52,10 +52,36 @@ Resource: Android Developers - Request runtime permissions - https://developer.a
 
 Networking
 
+Networking allows users, identity providers, and government applications to exchange authentication requests 
+and responses. Reliable DNS, correct routing, firewalls, load balancing, and encrypted HTTPS connections 
+help maintain availability and protect communications. DNS over HTTPS (DoH) sends DNS queries through 
+HTTPS, helping reduce the risk of observation or modification by parties on the local network. However, 
+DoH does not replace other security controls or prevent all network threats.
+
+Resource: RFC 8484 - DNS Queries over HTTPS - https://www.rfc-editor.org/rfc/rfc8484.html
+
 
 Cybersecurity
 
+A government SSO service must protect user accounts, credentials, authentication tokens, and sessions. 
+Security measures should include multi-factor authentication, least-privilege access, monitoring of 
+suspicious sign-ins, and incident-response procedures. Phishing-resistant authentication can reduce 
+the risk of attackers stealing or misusing login credentials. Organizations should select suitable 
+authentication methods and review their security controls regularly.
+
+Resource: CISA - Implementing Phishing-Resistant MFA - https://www.cisa.gov/sites/default/files/2023-01/fact-sheet-implementing-phishing-resistant-mfa-508c.pdf
+
+
 Data
+
+A government SSO service processes personal information and authentication records, so data protection 
+must be considered throughout the system’s lifecycle. Organizations should collect only necessary 
+information, restrict access to authorized staff, protect stored records, and establish clear retention 
+and deletion procedures. In Oman, the Personal Data Protection Law was issued under Royal Decree 6/2022. 
+Government services should ensure that data sharing has a clear purpose and follows applicable legal requirements.
+
+Resource: Oman Personal Data Protection Law, Royal Decree 6/2022 - https://qanoon.om/p/2022/rd2022006/
+
 
 Misconception in My Track
 
