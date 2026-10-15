@@ -85,4 +85,18 @@ Resource: Oman Personal Data Protection Law, Royal Decree 6/2022 - https://qanoo
 
 Misconception in My Track
 
+A common misconception in networking is that DNS over HTTPS (DoH) makes users completely 
+anonymous and secures all their internet activity. DoH encrypts DNS queries between 
+a client and its selected resolver, helping protect them from observation or modification 
+by parties on the local network. However, it does not hide all connection metadata, 
+guarantee that the resolver is trustworthy, or prevent phishing and malware. 
+Government SSO services still require HTTPS, strong authentication, endpoint security, 
+and properly configured network infrastructure.
+
+Resource: RFC 8484 - DNS Queries over HTTPS - https://www.rfc-editor.org/rfc/rfc8484.html
+
+
 Open Question
+
+How can a government SSO service securely monitor network traffic between different public 
+agencies while minimizing the exposure of sensitive identity information?
